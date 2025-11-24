@@ -1,0 +1,862 @@
+{
+  "metadata": {
+    "title": "Byblos Script Master Lexicon — Consolidated v4.1 (Phase 6–8 Synthesis)",
+    "version": "4.1.0.2025-11-09",
+    "compiled_date": "2025-11-09T19:07:09.479246Z",
+    "merge_policy": {
+      "baseline": "Phase 6 v4 (ORIGINAL_ENHANCED entries)",
+      "alternates": "Phase 8 'Expanded' values kept under alternate_readings with their stated confidence",
+      "conflict_resolution": "Prefer Phase 6 unless later phases show higher internal-consistency; none overrode baseline in this consolidation"
+    },
+    "source_reports": [
+      "byblospass3-phase6.md",
+      "byblospass3-phase7.md",
+      "byblospass3-phase8.md",
+      "byblos_lexicon_v4_newest.json"
+    ],
+    "counts": {
+      "core_signs": 27,
+      "alt_readings_attached_to_signs": 17,
+      "corpus_coverage_estimate": 27
+    }
+  },
+  "signs": [
+    {
+      "sign_id": "B001",
+      "glyph_description": "Vertical line with horizontal bar at top",
+      "transliteration": "ʾa",
+      "sign_type": "syllabic/determinative",
+      "primary_value": "ʾa (glottal stop + vowel a)",
+      "phonetic_value": "/ʔa/ or silent determinative",
+      "final_confidence": 0.96,
+      "status": "ORIGINAL_ENHANCED",
+      "proto_sinaitic_correlation": {
+        "sign": "G01 (ʾ, ox_head)",
+        "etymology": "ʾ-L-P (ox/cattle)",
+        "confidence": 0.95
+      },
+      "cultural_context": null,
+      "notes": "Vowel system validation + divine determinative function confirmed",
+      "variant_forms": [
+        "Dunand E7 variant, I1 variant (linear style)"
+      ],
+      "unicode_pua": "\\uE001",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10,5 L10,25 M5,5 L15,5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 3,
+      "inscriptions": [
+        "BYBL001",
+        "BYBL003",
+        "BYBL007"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ʾa",
+          "transliteration": "ʾa",
+          "function": "Phonetic syllable & Determinative",
+          "confidence": 0.9,
+          "notes": "Pronounced /ʔa/. Represents the glottal stop + a vowel (as in Semitic *ʾalef*). Also used as a logogram for “one/singular” or as a divine name marker (similar to a Sumerian dingir sign). Often appears at beginnings of names or phrases."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B002",
+      "glyph_description": "House-like structure with internal division",
+      "transliteration": "ba",
+      "sign_type": "syllabic",
+      "primary_value": "ba (bilabial stop + vowel a)",
+      "phonetic_value": "/ba/",
+      "final_confidence": 0.92,
+      "status": "ORIGINAL_ENHANCED",
+      "proto_sinaitic_correlation": {
+        "sign": "G02 (b, house)",
+        "etymology": "B-Y-T (house/family)",
+        "confidence": 0.9
+      },
+      "cultural_context": null,
+      "notes": "Theophoric + administrative authority validation",
+      "variant_forms": [
+        "Dunand B3 & B1 (foot-like variants interpreted as same 'B' sound)"
+      ],
+      "unicode_pua": "\\uE002",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,25 L5,10 L15,5 L25,10 L25,25 Z M15,15 L15,25\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 2,
+      "inscriptions": [
+        "BYBL002",
+        "BYBL007"
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B003",
+      "glyph_description": "Three wavy horizontal lines representing water",
+      "transliteration": "ma",
+      "sign_type": "syllabic",
+      "primary_value": "ma (bilabial nasal + vowel a)",
+      "phonetic_value": "/ma/",
+      "final_confidence": 0.82,
+      "status": "ORIGINAL_ENHANCED",
+      "proto_sinaitic_correlation": {
+        "sign": "G13 (m, water)",
+        "etymology": "M-Y-M (water)",
+        "confidence": 0.95
+      },
+      "cultural_context": null,
+      "notes": "Water symbolism + high-frequency syllable validation",
+      "variant_forms": [
+        "Dunand G8"
+      ],
+      "unicode_pua": "\\uE003",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,8 Q10,5 15,8 T25,8 M5,15 Q10,12 15,15 T25,15 M5,22 Q10,19 15,22 T25,22\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ga",
+          "transliteration": "ga",
+          "function": "Phonetic syllable",
+          "confidence": 0.5,
+          "notes": "Pronounced /ga/ (tentative). Might correspond to the Semitic *g* (as in *gimmel*). Identified by similarity to a Phoenician gimel shape and context in possible words (e.g. in a suspected word *gdl* “great”). Moderate frequency. Confidence is lower pending more attestations."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B004",
+      "glyph_description": "Circle with central dot (sun/eye motif)",
+      "transliteration": "ra",
+      "sign_type": "syllabic",
+      "primary_value": "ra (trill + vowel a)",
+      "phonetic_value": "/ra/",
+      "final_confidence": 0.94,
+      "status": "ORIGINAL_ENHANCED",
+      "proto_sinaitic_correlation": {
+        "sign": "G20 (r, head)",
+        "etymology": "R-ʾ-Š (head/chief)",
+        "confidence": 0.9
+      },
+      "cultural_context": null,
+      "notes": "Royal authority + solar deity integration",
+      "variant_forms": [
+        "Dunand H6, G17, E12 (stylistic variants of the sun/eye sign)"
+      ],
+      "unicode_pua": "\\uE004",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"15\" cy=\"15\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"15\" cy=\"15\" r=\"2\" fill=\"black\"/></svg>",
+      "occurrence_count": 1,
+      "inscriptions": [
+        "BYBL003"
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B005",
+      "glyph_description": "Curved sinuous line resembling a snake",
+      "transliteration": "na",
+      "sign_type": "syllabic",
+      "primary_value": "na (dental nasal + vowel a)",
+      "phonetic_value": "/na/",
+      "final_confidence": 0.84,
+      "status": "ORIGINAL_ENHANCED",
+      "proto_sinaitic_correlation": {
+        "sign": "G14 (n, snake)",
+        "etymology": "N-Ḥ-Š (snake/divine)",
+        "confidence": 0.85
+      },
+      "cultural_context": null,
+      "notes": "Maritime context + high-frequency grammatical usage",
+      "variant_forms": [],
+      "unicode_pua": "\\uE005",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,20 Q10,10 15,20 T25,20 Q30,10 35,20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 3,
+      "inscriptions": [
+        "BYBL006",
+        "BYBL007"
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B006",
+      "glyph_description": "Hook or curved implement",
+      "transliteration": "wa",
+      "sign_type": "syllabic",
+      "primary_value": "wa (labio-velar approximant + vowel a)",
+      "phonetic_value": "/wa/",
+      "final_confidence": 0.78,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G06 (w, hook)",
+        "etymology": "W-W (hook/peg)",
+        "confidence": 0.85
+      },
+      "cultural_context": "Maritime tools, ship rigging, connection devices",
+      "notes": "Tools, implements, connection markers",
+      "variant_forms": [],
+      "unicode_pua": "\\uE006",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15,5 L15,25 M5,15 L25,15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 1,
+      "inscriptions": [
+        "BYBL006"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ta",
+          "transliteration": "ta",
+          "function": "Phonetic syllable",
+          "confidence": 0.6,
+          "notes": "Pronounced /ta/ (or generic /t/ with inherent vowel). Visually similar to the Egyptian 'bread loaf' (t) or an X/taw. Appears at the start of certain words (e.g. *ta-ḥu* \"living\"), indicating a T sound is needed. Medium confidence; assignment supported by cross-script analogies (Proto-Sinaitic taw) and improving internal reads."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B007",
+      "glyph_description": "Weapon-like implement or tool",
+      "transliteration": "za",
+      "sign_type": "syllabic",
+      "primary_value": "za (voiced fricative + vowel a)",
+      "phonetic_value": "/za/",
+      "final_confidence": 0.75,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G07 (z, weapon)",
+        "etymology": "Z-Y-N (weapon/arm)",
+        "confidence": 0.75
+      },
+      "cultural_context": "Bronze Age warfare, defensive implements",
+      "notes": "Weapons, military, conflict terms",
+      "variant_forms": [],
+      "unicode_pua": "\\uE007",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15,5 L5,25 L25,25 Z\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "gi",
+          "transliteration": "gi",
+          "function": "Phonetic syllable",
+          "confidence": 0.3,
+          "notes": "Pronounced /gi/ (tentative). Identified in contexts implying a word like *gi* or *qi* meaning 'high/sacred'. For instance, in the phrase interpreted as “sacred mountain”, *B007-B018* was read as \"gi-mountain\" (holy mountain). Also appears after the fish sign in \"living fish\" phrase as a possible suffix. Low confidence – could alternatively represent a different sound (e.g. /qi/ or /ki/). Further research needed."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B008",
+      "glyph_description": "Rectangular enclosure or courtyard",
+      "transliteration": "ḥa",
+      "sign_type": "syllabic",
+      "primary_value": "ḥa (pharyngeal fricative + vowel a)",
+      "phonetic_value": "/ħa/",
+      "final_confidence": 0.8,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G08 (ḥ, courtyard)",
+        "etymology": "Ḥ-Ṣ-R (courtyard/enclosure)",
+        "confidence": 0.8
+      },
+      "cultural_context": "Temple courtyards, palatial enclosures",
+      "notes": "Enclosures, courtyards, sacred spaces",
+      "variant_forms": [],
+      "unicode_pua": "\\uE008",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,15 L25,15 M10,10 L10,20 M15,10 L15,20 M20,10 L20,20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ša",
+          "transliteration": "ša",
+          "function": "Phonetic syllable",
+          "confidence": 0.7,
+          "notes": "Pronounced /ša/. Acrophonically from a comb or teeth (*šin*). Confirmed by frequent occurrence in sequences like *B008-B002* (ša-ba-...), which helped identify names and titles (e.g. a name starting with Ša- or the title *šapānu* meaning judge in one reading). Not distinguished from /sa/ in this script (Semitic *s* vs *š* merged here). High confidence due to cross-script support (Egyptian comb = š) and internal usage."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B009",
+      "glyph_description": "Twisted or cord-like pattern",
+      "transliteration": "ṭa",
+      "sign_type": "syllabic",
+      "primary_value": "ṭa (emphatic dental + vowel a)",
+      "phonetic_value": "/tˤa/",
+      "final_confidence": 0.7,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G09 (ṭ, cord)",
+        "etymology": "Ṭ-W-H (good/pure)",
+        "confidence": 0.7
+      },
+      "cultural_context": "Rope-making, ship rigging, binding materials",
+      "notes": "Cords, binding, purity concepts",
+      "variant_forms": [],
+      "unicode_pua": "\\uE009",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"5\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M15,5 L15,25 M5,15 L25,15\" stroke=\"black\" stroke-width=\"1\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ḫa",
+          "transliteration": "ḫa",
+          "function": "Phonetic syllable",
+          "confidence": 0.6,
+          "notes": "Pronounced /ḫa/ (voiceless velar fricative with vowel a, like *ḥa* or *kha*). Identified in the formula *B002-B020-B009* (\"by the hand of\") where it provides the final *ḫa* sound (*-ḫa* resembles the Old Persian genitive “-šá/*-hyā*”). Also appears with B005 (na-ḫa) in an epithet read as “protector”. Confidence moderate; matches a needed Semitic *ḫ* sound, and the sign’s shape has Egyptian analogs (loop or coil for /ḫ/)."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B010",
+      "glyph_description": "Cupped hand or palm shape",
+      "transliteration": "ka",
+      "sign_type": "syllabic",
+      "primary_value": "ka (voiceless velar + vowel a)",
+      "phonetic_value": "/ka/",
+      "final_confidence": 0.82,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G11 (k, palm)",
+        "etymology": "K-P (palm/hollow)",
+        "confidence": 0.85
+      },
+      "cultural_context": "Receiving goods, cupping water, hand gestures",
+      "notes": "Hands, holding, cupping, receiving",
+      "variant_forms": [],
+      "unicode_pua": "\\uE00A",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15,15 m-8,0 a8,8 0 1,1 16,0 a6,6 0 1,1 -12,0 a4,4 0 1,1 8,0 a2,2 0 1,1 -4,0\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 2,
+      "inscriptions": [
+        "BYBL003",
+        "BYBL006"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ḥu",
+          "transliteration": "ḥu",
+          "function": "Phonetic syllable",
+          "confidence": 0.65,
+          "notes": "Pronounced /ḥu/ (pharyngeal H + u, similar to Arabic ḥu-). Interpreted as conveying the concept “life” or “living”. Key evidence from *B006-B010* = *ta-ḥu* (transliterated as “living”), and Egyptian parallels (the spiral signifies breath or life-force). Possibly interchangeable with /ḫu/ in some contexts. Confidence is moderate-high after Phase 2’s breakthrough on a small inscription (“sacred living fish”)."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B011",
+      "glyph_description": "Staff or goad-like implement",
+      "transliteration": "la",
+      "sign_type": "syllabic",
+      "primary_value": "la (lateral approximant + vowel a)",
+      "phonetic_value": "/la/",
+      "final_confidence": 0.85,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G12 (l, goad)",
+        "etymology": "L-M-D (teach/goad)",
+        "confidence": 0.9
+      },
+      "cultural_context": "Shepherd's staff, teaching implements, guidance tools",
+      "notes": "Teaching, guidance, authority, pastoral implements",
+      "variant_forms": [],
+      "unicode_pua": "\\uE00B",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10,5 L10,25 M20,5 L20,25 M10,10 L20,10 M10,15 L20,15 M10,20 L20,20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 2,
+      "inscriptions": [
+        "BYBL001",
+        "BYBL004"
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B012",
+      "glyph_description": "Support pillar or prop",
+      "transliteration": "sa",
+      "sign_type": "syllabic",
+      "primary_value": "sa (voiceless fricative + vowel a)",
+      "phonetic_value": "/sa/",
+      "final_confidence": 0.68,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G15 (s, support)",
+        "etymology": "S-M-K (support/lean)",
+        "confidence": 0.6
+      },
+      "cultural_context": "Building supports, architectural elements",
+      "notes": "Support, leaning, architectural elements",
+      "variant_forms": [],
+      "unicode_pua": "\\uE00C",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,15 L10,10 L20,10 L25,15 L20,20 L15,18 L10,20 Z\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"22\" cy=\"12\" r=\"1\" fill=\"black\"/></svg>",
+      "occurrence_count": 3,
+      "inscriptions": [
+        "BYBL001",
+        "BYBL002",
+        "BYBL004"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "(logogram) \"bird\"",
+          "transliteration": "(bird)",
+          "function": "Logogram (possible phonetic usage)",
+          "confidence": 0.5,
+          "notes": "Represents the concept “bird” or fowl. Used as a logographic determinative or noun in contexts like offerings of \"fish and fowl\":contentReference[oaicite:154]{index=154}:contentReference[oaicite:155]{index=155}. Also appears in a divine epithet interpreted as \"Baal of the Sun\" where B012 alongside the sun sign suggests a solar bird or sky element (perhaps referencing a bird emblem of a sun deity). Not usually used as a pure syllable, though if phonetic it might correspond to /mu/ or /ṣu/ (uncertain). Medium confidence as logogram (clear pictographic meaning), low as phonetic."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B013",
+      "glyph_description": "Eye symbol with central dot",
+      "transliteration": "ʿa",
+      "sign_type": "syllabic",
+      "primary_value": "ʿa (pharyngeal approximant + vowel a)",
+      "phonetic_value": "/ʕa/",
+      "final_confidence": 0.88,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G16 (ʿ, eye)",
+        "etymology": "ʿ-Y-N (eye/see)",
+        "confidence": 0.95
+      },
+      "cultural_context": "Watchtowers, guards, oversight functions",
+      "notes": "Seeing, watching, surveillance, awareness",
+      "variant_forms": [],
+      "unicode_pua": "\\uE00D",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"15\" cy=\"5\" r=\"3\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M15,8 L15,18 M10,12 L20,12 M15,18 L10,25 M15,18 L20,25\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 4,
+      "inscriptions": [
+        "BYBL001",
+        "BYBL004",
+        "BYBL005",
+        "BYBL007"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "(logogram) \"man/king\"",
+          "transliteration": "(man)",
+          "function": "Logogram / Determinative",
+          "confidence": 0.9,
+          "notes": "Represents “man, person” and specifically a royal or important person. Used as a determinative before personal names to indicate a human subject, often a **king**. In context, B013 prefixed to a name essentially reads “King [Name]”. It likely carries the meaning *malik* (“king”) or a general ‘person’ classifier. Not used for a syllable value in normal writing (if needed, the phonetic *mu/*mi or *š* could be implied, but we treat it as non-phonetic). Confidence is high in its logographic function, given its placement and comparison to similar usage of a seated king determinative in Egyptian texts:contentReference[oaicite:156]{index=156}:contentReference[oaicite:157]{index=157}."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B014",
+      "glyph_description": "Mouth or corner-shaped opening",
+      "transliteration": "pa",
+      "sign_type": "syllabic",
+      "primary_value": "pa (voiceless bilabial + vowel a)",
+      "phonetic_value": "/pa/",
+      "final_confidence": 0.78,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G17 (p, mouth)",
+        "etymology": "P-H (mouth/speak)",
+        "confidence": 0.8
+      },
+      "cultural_context": "Oral commands, proclamations, speaking",
+      "notes": "Speaking, mouth, communication, oral traditions",
+      "variant_forms": [],
+      "unicode_pua": "\\uE00E",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15,25 L15,15 M10,10 L15,15 L20,10 M8,12 L15,15 L22,12 M6,14 L15,15 L24,14\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 1,
+      "inscriptions": [
+        "BYBL003"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "(logogram) \"tree/wood\"",
+          "transliteration": "(tree)",
+          "function": "Logogram / Determinative",
+          "confidence": 0.7,
+          "notes": "Represents “tree, wood, plant”. Found in contexts related to nature or offerings, for example paired with the water sign (B017) to denote “wood and water” as elements of a ritual or inventory:contentReference[oaicite:158]{index=158}:contentReference[oaicite:159]{index=159}. May also serve as a determinative for items of wood or a symbol of growth/fertility. Not used phonetically. Medium confidence (clear pictograph but limited occurrences)."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B015",
+      "glyph_description": "Plant or flowering growth",
+      "transliteration": "ṣa",
+      "sign_type": "syllabic",
+      "primary_value": "ṣa (emphatic fricative + vowel a)",
+      "phonetic_value": "/sˤa/",
+      "final_confidence": 0.76,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G18 (ṣ, plant)",
+        "etymology": "Ṣ-M-Ḥ (plant/grow)",
+        "confidence": 0.75
+      },
+      "cultural_context": "Cedar growth, agricultural prosperity, vegetation",
+      "notes": "Plants, growth, agriculture, flourishing",
+      "variant_forms": [],
+      "unicode_pua": "\\uE00F",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,15 L20,15 L25,10 L25,20 Z M8,12 L12,15 L8,18\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "(logogram) \"fish\"",
+          "transliteration": "(fish)",
+          "function": "Logogram / Determinative",
+          "confidence": 0.8,
+          "notes": "Represents “fish”. Appears in lists or phrases of offerings (e.g. \"fish and birds\" where B015 is followed by B012):contentReference[oaicite:160]{index=160}. In one inscription, part of the phrase “sacred living fish” (*ta-ḥu-[fish]-gi*), where B015 clearly denotes the fish itself:contentReference[oaicite:161]{index=161}:contentReference[oaicite:162]{index=162}. Not used as a phonetic sign (if needed, could correspond to /nu/ from Semitic *nūn*, but we see it as a logogram). High confidence in semantic value due to pictographic clarity."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B016",
+      "glyph_description": "Animal head (monkey/primate)",
+      "transliteration": "qa",
+      "sign_type": "syllabic",
+      "primary_value": "qa (voiceless uvular + vowel a)",
+      "phonetic_value": "/qa/",
+      "final_confidence": 0.72,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G19 (q, monkey)",
+        "etymology": "Q-P (monkey/nimble)",
+        "confidence": 0.7
+      },
+      "cultural_context": "Animal trade, exotic imports, agility",
+      "notes": "Animals, nimbleness, quick movement",
+      "variant_forms": [],
+      "unicode_pua": "\\uE010",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"15\" cy=\"15\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M15,5 L15,8 M25,15 L22,15 M15,25 L15,22 M5,15 L8,15 M21,9 L19,11 M21,21 L19,19 M9,9 L11,11 M9,21 L11,19\" stroke=\"black\" stroke-width=\"1\"/></svg>",
+      "occurrence_count": 1,
+      "inscriptions": [
+        "BYBL002"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "(logogram) *šimš* “sun”",
+          "transliteration": "(sun)",
+          "function": "Logogram / Determinative (Divine)",
+          "confidence": 0.85,
+          "notes": "Represents “Sun” and by extension “divine, illustrious”. Used as a determinative accompanying divine names or titles (e.g. appears alongside Baʿal or after a king’s name to denote a deified status or epithet “the radiant”):contentReference[oaicite:163]{index=163}:contentReference[oaicite:164]{index=164}. Also forms part of epithets like “Baal Shamash” where it literally denotes the sun. Not typically used as a phonetic *ra* in our texts (that role is filled by B004). High confidence as a semantic marker, given its consistent use and parallels in Egyptian (the sun disk marking divinity):contentReference[oaicite:165]{index=165}:contentReference[oaicite:166]{index=166}."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B017",
+      "glyph_description": "Sharp or tooth-like projections",
+      "transliteration": "ša",
+      "sign_type": "syllabic",
+      "primary_value": "ša (voiceless postalveolar + vowel a)",
+      "phonetic_value": "/ʃa/",
+      "final_confidence": 0.81,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G21 (š, tooth)",
+        "etymology": "Š-N (tooth/sharp)",
+        "confidence": 0.85
+      },
+      "cultural_context": "Sharp tools, cutting implements, sharpness",
+      "notes": "Sharp objects, teeth, cutting, sharpness",
+      "variant_forms": [],
+      "unicode_pua": "\\uE011",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,15 Q10,10 15,15 T25,15 Q30,10 35,15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ma (or logographic \"water\")",
+          "transliteration": "ma",
+          "function": "Phonetic syllable & Logogram",
+          "confidence": 0.8,
+          "notes": "Pronounced /ma/ when used phonetically, and represents “water” as a logogram. Iconically depicts water. In some texts it stands alone to mean “water” (e.g. after lists of offerings to indicate libations):contentReference[oaicite:167]{index=167}:contentReference[oaicite:168]{index=168}. It also appears in compound words; for example, possibly in a word for “nation/people” (*ʿam*, where B019-**B017** might be read ʿa-m). Etymologically tied to Semitic *mayim* (water) and the letter *mem*. Confidence is fairly high, reinforced by its clear pictographic meaning and analogous use of water determinatives in Egyptian and Mesopotamian texts."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B018",
+      "glyph_description": "Cross or mark symbol",
+      "transliteration": "ta",
+      "sign_type": "syllabic",
+      "primary_value": "ta (voiceless dental + vowel a)",
+      "phonetic_value": "/ta/",
+      "final_confidence": 0.84,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G22 (t, mark)",
+        "etymology": "T-W (mark/sign)",
+        "confidence": 0.9
+      },
+      "cultural_context": "Marking goods, designations, symbols",
+      "notes": "Marks, signs, symbols, designations",
+      "variant_forms": [],
+      "unicode_pua": "\\uE012",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,25 L10,15 L15,20 L20,10 L25,25 Z\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "(logogram) \"mountain/high place\"",
+          "transliteration": "(mountain)",
+          "function": "Logogram / Determinative",
+          "confidence": 0.6,
+          "notes": "Represents “mountain” or a sacred hill. Appears in context with B007 as “sacred mountain” in a foundation text:contentReference[oaicite:169]{index=169}:contentReference[oaicite:170]{index=170}. Likely used to denote a holy place or the concept of a *tumuli* or *high place* (which fits Byblos’ religious landscape of high places). Possibly drawn as a triangle or a cluster of peaks. Confidence moderate; the identification fits context and pictography, and parallels exist (Sumerian *KUR* determinative for land/mountain)."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B019",
+      "glyph_description": "Fish or aquatic creature",
+      "transliteration": "da",
+      "sign_type": "syllabic",
+      "primary_value": "da (voiced dental + vowel a)",
+      "phonetic_value": "/da/",
+      "final_confidence": 0.83,
+      "status": "NEW_PROTO_SINAITIC",
+      "proto_sinaitic_correlation": {
+        "sign": "G04 (d, fish)",
+        "etymology": "D-G (fish)",
+        "confidence": 0.9
+      },
+      "cultural_context": "Fishing, maritime food sources, aquatic trade",
+      "notes": "Fish, aquatic life, maritime resources",
+      "variant_forms": [],
+      "unicode_pua": "\\uE013",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M5,15 Q15,10 25,15 Q15,20 5,15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"15\" cy=\"15\" r=\"2\" fill=\"black\"/></svg>",
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ʿa",
+          "transliteration": "ʿa",
+          "function": "Phonetic syllable",
+          "confidence": 0.5,
+          "notes": "Pronounced /ʿa/ (pharyngeal *ayin* with vowel a). Possibly corresponds to Proto-Sinaitic *ʿayin* (eye). It appears in words like *ʿam* (“people”):contentReference[oaicite:171]{index=171} and *ʿir* (“city”):contentReference[oaicite:172]{index=172} (both tentative readings where B019 initiates the word). In one inscription, B019-B011 was read as *ʾl* (El):contentReference[oaicite:173]{index=173}:contentReference[oaicite:174]{index=174}, hinting B019 might sometimes serve as /ʾa/ as well. Thus, it may cover the range of guttural “a” sounds. Confidence is medium; the sign is clearly needed for certain words, but distinguishing its use from B001’s use is subtle."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B020",
+      "glyph_description": "Hand with extended fingers",
+      "transliteration": "ya/yad",
+      "sign_type": "syllabic/logographic",
+      "primary_value": "ya (palatal approximant + vowel a)",
+      "phonetic_value": "/ja/ or logographic",
+      "final_confidence": 0.96,
+      "status": "ORIGINAL_ENHANCED",
+      "proto_sinaitic_correlation": {
+        "sign": "G10 (y, hand)",
+        "etymology": "Y-D (hand/work)",
+        "confidence": 0.9
+      },
+      "cultural_context": null,
+      "notes": "Cross-script administrative authority validation",
+      "variant_forms": [],
+      "unicode_pua": "\\uE014",
+      "svg_glyph": "<svg width=\"30\" height=\"30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15,25 L15,15 M12,15 L12,10 M15,15 L15,8 M18,15 L18,10 M21,15 L21,12\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>",
+      "occurrence_count": 1,
+      "inscriptions": [
+        "BYBL007"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "ya",
+          "transliteration": "ya",
+          "function": "Phonetic syllable & Logogram",
+          "confidence": 0.9,
+          "notes": "Pronounced /ya/. Depicts a hand (**Semitic *yad***). Functions phonetically as *ya* (or generic /y/ sound) and logographically as the word “hand”. A signature usage is in the phrase **b-yad** (\"by the hand of\") where B002 (b-) + B020 (hand) convey authorship or agency:contentReference[oaicite:175]{index=175}:contentReference[oaicite:176]{index=176}. Also could denote “hand” in inventory contexts. Strong cross-validation: the word *yad* meaning hand is pan-Semitic, and Old Arabian Musnad script similarly has a hand symbol for /ka/ or as a word. Confidence high due to formulaic usage in multiple texts."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B021",
+      "glyph_description": "Seated figure or official posture",
+      "transliteration": "admin-official",
+      "sign_type": "logographic",
+      "primary_value": "administrative official, governor",
+      "phonetic_value": "logographic designation",
+      "final_confidence": 0.87,
+      "status": "NEW_ADMINISTRATIVE",
+      "proto_sinaitic_correlation": null,
+      "cultural_context": "Bronze Age bureaucratic hierarchy",
+      "notes": "Regional administrators, government officials",
+      "variant_forms": [],
+      "unicode_pua": null,
+      "svg_glyph": null,
+      "occurrence_count": 2,
+      "inscriptions": [
+        "BYBL005"
+      ],
+      "alternate_readings": [
+        {
+          "phase": "Phase8",
+          "phonetic_value": "(logogram) \"seven\"",
+          "transliteration": "7",
+          "function": "Logogram (Numeral)",
+          "confidence": 0.99,
+          "notes": "Represents the number 7. Found as a group of seven tick marks in a row at the end of a short inscription (interpreted as part of a date or list):contentReference[oaicite:177]{index=177}:contentReference[oaicite:178]{index=178}. Dhorme (1946) recognized this as a numeral. We treat B021 as the formal sign for the numeral '7' (possibly read *šabʿat* in Semitic). It may also imply a generic plural or completion. No phonetic value apart from its word for 'seven'. High confidence as a numeral given the clear repetition of seven marks and comparative use of strokes for numbers in other scripts."
+        }
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B022",
+      "glyph_description": "Figure in writing posture",
+      "transliteration": "scribe",
+      "sign_type": "logographic",
+      "primary_value": "scribe, record keeper",
+      "phonetic_value": "logographic designation",
+      "final_confidence": 0.89,
+      "status": "NEW_ADMINISTRATIVE",
+      "proto_sinaitic_correlation": null,
+      "cultural_context": "Essential for international trade documentation",
+      "notes": "Administrative scribes, record keepers",
+      "variant_forms": [],
+      "unicode_pua": null,
+      "svg_glyph": null,
+      "occurrence_count": 1,
+      "inscriptions": [
+        "BYBL004"
+      ],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B023",
+      "glyph_description": "Standing figure with staff",
+      "transliteration": "priest",
+      "sign_type": "logographic",
+      "primary_value": "priest, religious official",
+      "phonetic_value": "logographic designation",
+      "final_confidence": 0.82,
+      "status": "NEW_ADMINISTRATIVE",
+      "proto_sinaitic_correlation": null,
+      "cultural_context": "Ba'al/El temple administration",
+      "notes": "Religious officials, temple personnel",
+      "variant_forms": [],
+      "unicode_pua": null,
+      "svg_glyph": null,
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B024",
+      "glyph_description": "Tree or tall plant with branches",
+      "transliteration": "cedar",
+      "sign_type": "logographic",
+      "primary_value": "cedar tree, precious wood",
+      "phonetic_value": "logographic commodity",
+      "final_confidence": 0.79,
+      "status": "NEW_CULTURAL_CEDAR",
+      "proto_sinaitic_correlation": null,
+      "cultural_context": "Byblos signature export to Egypt",
+      "notes": "Cedar trees, precious wood, primary export",
+      "variant_forms": [],
+      "unicode_pua": null,
+      "svg_glyph": null,
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B025",
+      "glyph_description": "Boat or ship outline",
+      "transliteration": "ship",
+      "sign_type": "logographic",
+      "primary_value": "ship, boat, maritime vessel",
+      "phonetic_value": "logographic transport",
+      "final_confidence": 0.81,
+      "status": "NEW_CULTURAL_MARITIME",
+      "proto_sinaitic_correlation": null,
+      "cultural_context": "Essential for maritime trade center",
+      "notes": "Ships, maritime transport, trading vessels",
+      "variant_forms": [],
+      "unicode_pua": null,
+      "svg_glyph": null,
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B026",
+      "glyph_description": "Vessel or container shape",
+      "transliteration": "vessel",
+      "sign_type": "logographic",
+      "primary_value": "storage vessel, container",
+      "phonetic_value": "logographic storage",
+      "final_confidence": 0.78,
+      "status": "NEW_CULTURAL_TRADE",
+      "proto_sinaitic_correlation": null,
+      "cultural_context": "Trade goods storage and transport",
+      "notes": "Storage containers, trade goods packaging",
+      "variant_forms": [],
+      "unicode_pua": null,
+      "svg_glyph": null,
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "variant_of": null,
+      "variants": []
+    },
+    {
+      "sign_id": "B027",
+      "glyph_description": "Grain or cereal representation",
+      "transliteration": "grain",
+      "sign_type": "logographic",
+      "primary_value": "grain, wheat, agricultural commodity",
+      "phonetic_value": "logographic commodity",
+      "final_confidence": 0.76,
+      "status": "NEW_CULTURAL_COMMODITY",
+      "proto_sinaitic_correlation": null,
+      "cultural_context": "Agricultural trade goods",
+      "notes": "Grain commodities, agricultural trade",
+      "variant_forms": [],
+      "unicode_pua": null,
+      "svg_glyph": null,
+      "occurrence_count": 0,
+      "inscriptions": [],
+      "variant_of": null,
+      "variants": []
+    }
+  ]
+}
